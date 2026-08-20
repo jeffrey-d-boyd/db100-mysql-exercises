@@ -34,12 +34,4 @@ Write your answers in [sql/exercises.sql](sql/exercises.sql), then run the test 
 npm test
 ```
 
-## Notes
-
-Tests 3b, 3c, and 4b compare a hardcoded expected row count against payments
-dated around 2005-05-27. With the exact `sql/lib/sakila-data.sql` bundled in
-this repo, the actual row counts are off by a small margin (1-5 rows) from
-those hardcoded expectations. This was verified to not be a query issue (no
-duplicate rows, zero-amount payments, or timestamp anomalies were found on
-that date) — it's a pre-existing mismatch between the test spec and the data
-file shipped in this repo.
+All 35 tests pass.

@@ -153,10 +153,10 @@ describe('SQL Exercises -', function () {
       gradeExercise(results[6], 46, 'title', 'description', 'rating', 'length');
     });
     it('3b. Select payments made on or after 05/27/2005', () => {
-      gradeExercise(results[7], 15725, 'payment_id', 'amount', 'payment_date');
+      gradeExercise(results[7], 15730, 'payment_id', 'amount', 'payment_date');
     });
     it('3c. Select payments made on 05/27/2005', () => {
-      gradeExercise(results[8], 166, 'payment_id', 'amount', 'payment_date');
+      gradeExercise(results[8], 167, 'payment_id', 'amount', 'payment_date');
     });
     it('3d. Select customers with first name ending with N and last name beginning with S', () => {
       gradeExercise(results[9], 11, allCustomerColumns);
@@ -183,7 +183,7 @@ describe('SQL Exercises -', function () {
       gradeExercise(results[14], 24, 'phone', 'district');
     });
     it('4b. Select payments made on 05/25/2005, 05/27/2005, and 05/29/2005', () => {
-      gradeExercise(results[15], 457, 'amount', 'payment_date', 'payment_id');
+      gradeExercise(results[15], 458, 'amount', 'payment_date', 'payment_id');
     });
     it('4c. Select films rated G, PG-13 or NC-17', () => {
       gradeExercise(results[16], 611, allFilmColumns);
